@@ -1,0 +1,488 @@
+{
+  "business": {
+    "name": "Horizon Concrete",
+    "phone": "555-con-r90",
+    "category": "concrete",
+    "city": "Denver",
+    "state": "CO"
+  },
+  "design": {
+    "preset": {
+      "id": "concrete-trust-navy",
+      "categoryGroup": "concrete",
+      "name": "Trust Navy",
+      "recipeFile": "concrete/trust-navy.astro",
+      "colors": {
+        "primary": "#78716C",
+        "primaryDark": "#44403C",
+        "primaryLight": "#dddcda",
+        "secondary": "#66605c",
+        "accent": "#A8A29E",
+        "background": "#FFFFFF",
+        "backgroundAlt": "#78716C",
+        "surface": "#F4F6F8",
+        "text": "#1A1A2E",
+        "textLight": "#4A5568",
+        "textOnDark": "#FFFFFF",
+        "border": "#E5E7EB"
+      },
+      "typography": {
+        "headingFont": "Bebas Neue",
+        "headingWeight": "700",
+        "bodyFont": "Open Sans",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.25"
+      },
+      "shape": {
+        "borderRadius": "6px",
+        "buttonRadius": "6px",
+        "cardRadius": "10px",
+        "shadowStyle": "soft"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "dark",
+          "light"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "balanced"
+      }
+    },
+    "recipeId": "concrete/trust-navy"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Denver's Trusted Concrete Experts",
+      "heroSubline": "Durable solutions for Colorado's harsh climate. Locally owned, built to last through freeze-thaw cycles and heavy snow.",
+      "aboutTitle": "Built on Solid Ground",
+      "aboutText": [
+        "Horizon Concrete has been serving Denver since 2012, delivering durable concrete work that stands up to Colorado's extreme weather. We started with a single truck and a commitment to craftsmanship—now we're the go-to crew for foundations, driveways, and patios across the Front Range.",
+        "We don't cut corners. Every mix is engineered for Denver's rapid temperature swings, every pour timed to avoid spring hailstorms. Our team wears Carhartts, not suits—we're tradesmen who show up ready to work.",
+        "When we're not pouring concrete, you'll find us volunteering at City Park cleanups or sponsoring local Little League teams. This is our home too."
+      ],
+      "valueProps": [
+        {
+          "title": "Colorado-strong mixes",
+          "description": "Specially formulated concrete that resists cracking from freeze-thaw cycles."
+        },
+        {
+          "title": "No surprise pricing",
+          "description": "Upfront quotes with itemized costs—we honor them even when material prices spike."
+        },
+        {
+          "title": "Historic district experts",
+          "description": "Experience working with Denver's older homes and preservation requirements."
+        },
+        {
+          "title": "5-year warranty",
+          "description": "Backed by the longest guarantee in the metro area."
+        }
+      ],
+      "ctaHeadline": "Let's Build Something That Lasts",
+      "ctaSubline": "Schedule your free consultation—we'll assess your site and recommend the right solution."
+    },
+    "services": [
+      {
+        "slug": "concrete-foundations",
+        "name": "Concrete Foundations",
+        "shortDescription": "Engineered bases that withstand Denver's shifting soils.",
+        "description": "A foundation is only as strong as the ground beneath it—and Denver's expansive clay soils demand special attention. We dig deeper footings for frost protection, use fiber-reinforced concrete to prevent hairline cracks, and install vapor barriers to combat basement moisture.\n\nFor historic homes in Capitol Hill or Park Hill, we match original foundation profiles while upgrading structural integrity. New infill constructions get moisture-monitored pours with expansion joints sized for Colorado's temperature swings. Every project includes post-pour curing blankets to prevent winter cracking.",
+        "process": [
+          "Step 1: Soil testing and frost depth evaluation",
+          "Step 2: Custom formwork construction with rebar grid",
+          "Step 3: Controlled pour with vibration settling",
+          "Step 4: 7-day curing process with temperature monitoring"
+        ],
+        "benefits": [
+          "Prevents uneven settling in expansive soils",
+          "Insulated options reduce heating costs",
+          "Meets Denver's strict earthquake codes",
+          "Compatible with radiant floor systems"
+        ],
+        "faq": [
+          {
+            "question": "How deep should footings be in Denver?",
+            "answer": "Minimum 36 inches to get below frost line, but we often go deeper in clay-heavy areas like Littleton. Soil tests determine final depth."
+          },
+          {
+            "question": "Do you work with historic preservation boards?",
+            "answer": "Yes—we've completed approved foundations for 19th-century homes in Baker and Cheesman Park while maintaining original aesthetics."
+          }
+        ]
+      },
+      {
+        "slug": "driveway-installation",
+        "name": "Driveway Installation",
+        "shortDescription": "Heavy-duty driveways built for plows and hail.",
+        "description": "Denver driveways face a triple threat: snowplow blades, hailstorms, and oil stains from mountain-bound SUVs. Our 6-inch-thick pours use 4,500 psi concrete with broom finishes that provide winter traction without shredding snowblower paddles.\n\nIn Highlands Ranch's planned communities, we match HOA requirements for decorative borders. For older Arvada ranches, we slope driveways properly to avoid ice dams. Every installation includes expansion joints at precise intervals to prevent unsightly cracks from temperature swings. Need snowmelt? We embed heating cables during pours for worry-free winters.",
+        "process": [
+          "Step 1: Subgrade compaction with laser-level verification",
+          "Step 2: Gravel base layer with proper drainage slope",
+          "Step 3: Steel reinforcement grid installation",
+          "Step 4: Power-troweled finish for maximum density"
+        ],
+        "benefits": [
+          "Withstands 15,000+ lb vehicles",
+          "Textured finish reduces slip hazards",
+          "Optional heated surface options",
+          "Stamped patterns available"
+        ],
+        "faq": [
+          {
+            "question": "How soon can I park on a new driveway?",
+            "answer": "7 days for passenger vehicles, 28 days for RVs. We'll provide a curing timeline specific to weather conditions."
+          },
+          {
+            "question": "Do you repair existing driveways?",
+            "answer": "Yes—we assess whether partial replacement or full removal is needed, especially common with 1970s Lakewood homes where tree roots have caused damage."
+          }
+        ]
+      },
+      {
+        "slug": "patio-pavers",
+        "name": "Patio Pavers",
+        "shortDescription": "Custom outdoor living spaces for Colorado lifestyles.",
+        "description": "From Wash Park bungalows to RiNo loft complexes, we build paver patios that handle Denver's extremes. Our base layers include 8 inches of compacted gravel with polymeric sand joints that resist weed growth and freeze damage.\n\nWe source locally from Rocky Mountain Stone to reduce transportation costs, offering tumbled pavers that mimic Red Rocks' hues for natural aesthetics. For Victorian homes, we replicate historic brick patterns. Modern designs get geometric layouts with integrated drainage channels to handle summer cloudbursts. All installations include a 2% slope away from structures to prevent foundation water damage.",
+        "process": [
+          "Step 1: Excavation with proper slope calculations",
+          "Step 2: Geotextile fabric and gravel base installation",
+          "Step 3: Precision paver cutting and placement",
+          "Step 4: Joint sand activation and sealing"
+        ],
+        "benefits": [
+          "Interlocking design handles ground movement",
+          "Permeable options meet Denver Water requirements",
+          "No hot-surface issues like concrete in summer",
+          "Individual paver replacement capability"
+        ],
+        "faq": [
+          {
+            "question": "Can pavers handle Denver's hail?",
+            "answer": "Yes—our tumbled concrete pavers have compressive strengths over 8,000 psi. We've installed them at Red Rocks-area homes with zero hail damage reports."
+          },
+          {
+            "question": "How do you prevent frost heave?",
+            "answer": "Our deeper base layers include crushed granite that drains better than typical road base, critical for Littleton's clay-heavy soils."
+          }
+        ]
+      },
+      {
+        "slug": "concrete-repair",
+        "name": "Concrete Repair",
+        "shortDescription": "Restoring damaged slabs without full replacement.",
+        "description": "Denver's freeze-thaw cycles wreck concrete—but total replacement isn't always necessary. Our structural epoxy injections fill cracks from the ground up, while polymer-modified overlights restore spalled surfaces on garage floors and sidewalks.\n\nFor historic districts like LoDo, we carefully remove and replace individual sections to maintain architectural integrity. Modern homes get color-matched repairs that blend seamlessly. We also stabilize sunken slabs with polyurethane foam jacketing, a minimally invasive solution perfect for Aurora's expansive soil neighborhoods. Every repair includes moisture testing to address underlying issues.",
+        "process": [
+          "Step 1: Damage assessment with core sampling",
+          "Step 2: Preparation including rust removal from rebar",
+          "Step 3: Precision material application (epoxy, overlay, or foam)",
+          "Step 4: Texture matching and curing"
+        ],
+        "benefits": [
+          "Saves 50-75% over full replacement",
+          "Same-day use for most repairs",
+          "Prevents further deterioration",
+          "Maintains existing landscaping"
+        ],
+        "faq": [
+          {
+            "question": "Can hairline cracks be repaired?",
+            "answer": "Yes—we inject low-viscosity epoxy that wicks into cracks as thin as 0.002 inches, common in older Arvada slab foundations."
+          },
+          {
+            "question": "How long do overlays last?",
+            "answer": "Our polymer-modified systems typically last 10-15 years—we warranty them for 5 years against delamination or cracking."
+          }
+        ]
+      },
+      {
+        "slug": "stamped-concrete",
+        "name": "Stamped Concrete",
+        "shortDescription": "Decorative finishes that endure Colorado's elements.",
+        "description": "Want the look of flagstone without the maintenance? Our stamped concrete replicates natural materials while providing superior durability against Denver's hail and de-icing salts. Using release agents from Scofield, we create realistic textures ranging from ashlar slate to weathered wood.\n\nFor Highlands Ranch backyards, we integrate radiant heat cables before stamping. Wash Park historic homes get custom antique finishes that complement original architecture. All projects include penetrating sealers refreshed every 2-3 years to prevent UV damage and salt corrosion—critical near mountain-facing properties where winter chemicals are heavily used.",
+        "process": [
+          "Step 1: Color hardener broadcast for consistent hue",
+          "Step 2: Precision stamping with alignment guides",
+          "Step 3: Joint cutting matching pattern lines",
+          "Step 4: Dual-layer sealing process"
+        ],
+        "benefits": [
+          "75% less costly than natural stone",
+          "No uneven settling like pavers",
+          "Custom colors match Denver Red rocks",
+          "Seamless integration with existing concrete"
+        ],
+        "faq": [
+          {
+            "question": "Does stamped concrete get slippery?",
+            "answer": "We add non-slip additives to all exterior applications—our textured finishes actually provide better traction than smooth pavers when wet."
+          },
+          {
+            "question": "Can you stamp over existing concrete?",
+            "answer": "Sometimes—we'll core test your slab and may recommend a bond breaker layer first. Works best on pre-1990s concrete that hasn't been sealed with acrylics."
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Mark T.",
+        "rating": 5,
+        "service": "Driveway Installation",
+        "text": "Horizon replaced our crumbling 1980s driveway in Lakewood with a heated concrete slab. Their crew worked through a spring snowstorm to finish before my daughter's wedding. Two winters later—not a single crack despite my plow guy's heavy blade.",
+        "date": "2025-03-15"
+      },
+      {
+        "name": "Lisa R.",
+        "text": "The patio crew matched our RiNo loft's industrial aesthetic perfectly with large-format stamped concrete that looks like weathered steel. Even after last July's hail storm (you know the one), there wasn't a single chip. These guys understand Denver weather.",
+        "rating": 5,
+        "service": "Stamped Concrete",
+        "date": "2025-01-22"
+      },
+      {
+        "name": "James K.",
+        "rating": 5,
+        "service": "Concrete Foundations",
+        "text": "As a structural engineer, I inspected Horizon's foundation work on my own 1920s Park Hill home. Their rebar spacing and vapor barrier installation were textbook perfect. Most impressive was how they compacted the clay soil—no settlement cracks after 18 months.",
+        "date": "2024-11-03"
+      },
+      {
+        "name": "Sarah L.",
+        "rating": 5,
+        "service": "Patio Pavers",
+        "text": "Our Wash Park bungalow needed a patio that wouldn't flood during summer storms. Horizon graded the pavers to drain toward the alley and used permeable joints. Now we're the only house on the block without standing water after heavy rains.",
+        "date": "2024-10-18"
+      },
+      {
+        "name": "Derek M.",
+        "rating": 5,
+        "service": "Concrete Repair",
+        "text": "Thought we'd need to replace our entire Aurora garage floor after salt damage. Horizon's overlay system made it look new for a fraction of the cost. They even matched the original broom finish so perfectly my HOA didn't notice the repair.",
+        "date": "2024-09-29"
+      },
+      {
+        "name": "Maria G.",
+        "rating": 5,
+        "service": "Driveway Installation",
+        "text": "Horizon navigated Highlands Ranch HOA requirements flawlessly for our circular driveway. Their crew repaired sprinkler lines they uncovered at no extra charge. The control joints are cut exactly where predicted—no random cracks like our neighbors have.",
+        "date": "2024-08-11"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Denver Concrete Contractors | Horizon Concrete CO",
+        "description": "Local concrete experts serving Denver since 2012. Foundations, driveways, patios built for Colorado's freeze-thaw cycles. Free estimates."
+      },
+      "about": {
+        "title": "About Horizon Concrete | Denver CO Contractors",
+        "description": "Meet Denver's most trusted concrete crew—family-owned, Colorado-strong mixes, 5-year warranty on all work. See why we're different."
+      },
+      "services": {
+        "title": "Concrete Services Denver | Driveways & Foundations",
+        "description": "Complete concrete solutions for Denver homes: new pours, repairs, stamped finishes. Engineered for hail, snow, and soil challenges."
+      },
+      "contact": {
+        "title": "Contact Horizon Concrete | Denver CO Quote",
+        "description": "Ready to start your project? Get a free onsite estimate from Denver's concrete specialists. Serving Aurora, Lakewood, Arvada, and beyond."
+      },
+      "reviews": {
+        "title": "Horizon Concrete Reviews | Denver CO Feedback",
+        "description": "See why Denver homeowners trust Horizon Concrete for durable foundations, driveways, and patios. 97% satisfaction over 800+ projects."
+      },
+      "service-areas": {
+        "title": "Denver Concrete Service Areas | Horizon CO",
+        "description": "Local concrete contractors serving Denver, Aurora, Lakewood, Arvada, Littleton, Highlands Ranch. Residential and commercial work."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    },
+    "serviceAreas": [
+      {
+        "city": "Aurora",
+        "slug": "aurora-co",
+        "state": "CO",
+        "content": "Horizon Concrete proudly serves Aurora, Colorado, where many homes and businesses were built during the 1970s-80s suburban expansion. Our expertise in durable concrete solutions is perfect for Aurora's aging infrastructure, particularly for driveways, foundations, and patios that need reinforcement against heavy snow loads. We also specialize in modern concrete finishes that complement the mid-century aesthetic prevalent in many Aurora neighborhoods. With cold winters and frequent snowfall, our concrete work is designed to resist freeze-thaw cycles, ensuring longevity and structural integrity.",
+        "localContext": "Aurora features 1970s-80s suburban developments with a mix of mid-century architectural styles.",
+        "nearbyAreas": [
+          "Denver",
+          "Centennial",
+          "Parker"
+        ]
+      },
+      {
+        "city": "Lakewood",
+        "slug": "lakewood-co",
+        "state": "CO",
+        "content": "Lakewood, Colorado, is home to many 1960s-70s split-level homes, which often require concrete repairs and upgrades. Horizon Concrete specializes in foundation stabilization, stamped concrete patios, and durable walkways that can withstand Lakewood's cold winters and heavy snowfall. Our team understands the unique challenges of preserving and enhancing older homes while incorporating modern concrete solutions. Whether it's a cracked driveway or a new decorative concrete feature, we provide reliable service tailored to Lakewood's residential needs.",
+        "localContext": "Lakewood is known for its 1960s-70s split-level homes and suburban charm.",
+        "nearbyAreas": [
+          "Golden",
+          "Arvada",
+          "Wheat Ridge"
+        ]
+      },
+      {
+        "city": "Arvada",
+        "slug": "arvada-co",
+        "state": "CO",
+        "content": "Arvada's 1960s-70s ranch-style homes often feature original concrete work that may need repair or replacement. Horizon Concrete offers expert services for foundations, driveways, and outdoor living spaces, ensuring they endure Colorado's harsh winters. Our concrete solutions are designed to blend seamlessly with Arvada's architectural character while providing modern durability. From decorative stamped concrete to essential structural repairs, we help homeowners maintain and enhance their properties with high-quality craftsmanship.",
+        "localContext": "Arvada is characterized by its 1960s-70s ranch homes and historic neighborhoods.",
+        "nearbyAreas": [
+          "Westminster",
+          "Broomfield",
+          "Wheat Ridge"
+        ]
+      },
+      {
+        "city": "Littleton",
+        "slug": "littleton-co",
+        "state": "CO",
+        "content": "Littleton's historic downtown and charming bungalows require concrete work that respects their heritage while meeting modern standards. Horizon Concrete specializes in restoring and upgrading driveways, sidewalks, and patios in Littleton, ensuring they can handle the heavy snow and cold winters. Our team takes pride in delivering aesthetically pleasing and durable concrete solutions that enhance the character of Littleton's homes and businesses. Whether it's a small repair or a full-scale installation, we provide personalized service tailored to the community's needs.",
+        "localContext": "Littleton is known for its historic downtown and classic bungalow-style homes.",
+        "nearbyAreas": [
+          "Englewood",
+          "Highlands Ranch",
+          "Centennial"
+        ]
+      },
+      {
+        "city": "Highlands Ranch",
+        "slug": "highlands-ranch-co",
+        "state": "CO",
+        "content": "Highlands Ranch, a planned community built in the 1990s-2000s, features modern homes that benefit from high-quality concrete work. Horizon Concrete provides services such as stamped concrete patios, durable driveways, and custom outdoor living spaces that complement the community's contemporary style. Our expertise ensures that concrete installations withstand the heavy snowfall and cold winters typical of the area. Whether you're looking to enhance curb appeal or improve functionality, we deliver reliable and stylish solutions for Highlands Ranch residents.",
+        "localContext": "Highlands Ranch is a 1990s-2000s planned community with modern suburban homes.",
+        "nearbyAreas": [
+          "Littleton",
+          "Lone Tree",
+          "Parker"
+        ]
+      },
+      {
+        "city": "Centennial",
+        "slug": "centennial-co",
+        "state": "CO",
+        "content": "Centennial, Colorado, is a thriving suburban area with a mix of older and newer homes that often require concrete maintenance and upgrades. Horizon Concrete specializes in repairing and installing driveways, walkways, and foundations to withstand the region's cold winters and heavy snow. Our team is skilled in both functional and decorative concrete work, ensuring your property remains sturdy and visually appealing. From crack repairs to custom stamped concrete, we provide solutions tailored to Centennial's diverse architectural styles.",
+        "localContext": "Centennial features a blend of older and newer suburban homes with varied architectural designs.",
+        "nearbyAreas": [
+          "Greenwood Village",
+          "Littleton",
+          "Aurora"
+        ]
+      },
+      {
+        "city": "Parker",
+        "slug": "parker-co",
+        "state": "CO",
+        "content": "Parker's growing community includes many homes that benefit from durable concrete solutions to handle Colorado's harsh winters. Horizon Concrete offers services such as driveway installations, patio expansions, and foundation repairs to ensure longevity and performance. Our expertise in cold-weather concrete techniques makes us a trusted choice for Parker residents. Whether you're upgrading an existing property or building new, we provide reliable and aesthetically pleasing concrete work tailored to your needs.",
+        "localContext": "Parker is a rapidly growing town with a mix of modern and traditional homes.",
+        "nearbyAreas": [
+          "Castle Rock",
+          "Aurora",
+          "Highlands Ranch"
+        ]
+      },
+      {
+        "city": "Westminster",
+        "slug": "westminster-co",
+        "state": "CO",
+        "content": "Westminster's diverse housing stock, ranging from mid-century homes to newer constructions, often requires expert concrete services. Horizon Concrete specializes in foundations, driveways, and outdoor living spaces designed to endure heavy snowfall and freezing temperatures. Our team understands the local architectural styles and provides solutions that enhance both functionality and curb appeal. From structural repairs to decorative finishes, we deliver high-quality concrete work for Westminster homeowners and businesses.",
+        "localContext": "Westminster features a mix of mid-century and modern suburban homes.",
+        "nearbyAreas": [
+          "Arvada",
+          "Broomfield",
+          "Thornton"
+        ]
+      }
+    ]
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "concrete-foundations": "/images/service-concrete-foundations.webp",
+      "driveway-installation": "/images/service-driveway-installation.webp",
+      "concrete-repair": "/images/service-concrete-repair.webp",
+      "stamped-concrete": "/images/service-stamped-concrete.webp",
+      "patio-pavers": "/images/service-patio-pavers.webp"
+    },
+    "servicesResponsive": {
+      "concrete-foundations": {
+        "src": "/images/service-concrete-foundations.webp",
+        "srcset": "/images/service-concrete-foundations-400w.webp 400w, /images/service-concrete-foundations-800w.webp 800w, /images/service-concrete-foundations-1200w.webp 1200w, /images/service-concrete-foundations.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "driveway-installation": {
+        "src": "/images/service-driveway-installation.webp",
+        "srcset": "/images/service-driveway-installation-400w.webp 400w, /images/service-driveway-installation-800w.webp 800w, /images/service-driveway-installation-1200w.webp 1200w, /images/service-driveway-installation.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "concrete-repair": {
+        "src": "/images/service-concrete-repair.webp",
+        "srcset": "/images/service-concrete-repair-400w.webp 400w, /images/service-concrete-repair-800w.webp 800w, /images/service-concrete-repair-1200w.webp 1200w, /images/service-concrete-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "stamped-concrete": {
+        "src": "/images/service-stamped-concrete.webp",
+        "srcset": "/images/service-stamped-concrete-400w.webp 400w, /images/service-stamped-concrete-800w.webp 800w, /images/service-stamped-concrete-1200w.webp 1200w, /images/service-stamped-concrete.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "patio-pavers": {
+        "src": "/images/service-patio-pavers.webp",
+        "srcset": "/images/service-patio-pavers-400w.webp 400w, /images/service-patio-pavers-800w.webp 800w, /images/service-patio-pavers-1200w.webp 1200w, /images/service-patio-pavers.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
